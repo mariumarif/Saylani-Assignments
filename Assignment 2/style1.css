@@ -1,0 +1,28 @@
+#thankyou {
+    font-size: 30px;
+    text-align: center;
+    color: rgb(21, 163, 21);
+    padding-top: 0%;
+    padding-bottom: 0%;
+    padding-left: 2%;
+
+}
+
+img{
+    padding-top: 50px;
+    padding-bottom: 0%;
+    padding-left: 0%;
+}
+li {
+    list-style: none;
+    padding-left: 0%;
+    font-size: 20px;
+    color: rgb(76, 26, 112);
+
+}
+#sub {
+    color: rgb(76, 26, 112);
+    text-align: center;
+    padding-top: 0%;
+    font-size: 20px;
+}

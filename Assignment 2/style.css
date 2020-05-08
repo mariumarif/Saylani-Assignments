@@ -1,0 +1,81 @@
+        
+        *{
+          font-size: 15px;
+          font-family: 'Times New Roman', Times, serif;
+        }
+        
+        #blabla {
+            color: #5B62B9;
+        }
+
+      table{
+             background-color: #5B62B9;
+            align-content: center;
+            vertical-align: middle;
+            align-content: center; 
+            color: #ffffff;
+            margin-top: 35px;  
+            max-width:800px;  
+            width: 100em;            
+        }
+        form { 
+            word-spacing: 0.1em;
+        }
+
+        p { 
+            color: #ffffff;
+            background-color: #5B62B9;
+        }
+
+        font{
+            background-color: #DCDBDB;
+        }
+    
+        label{
+        width: 240px;
+        display: inline-block;
+        text-align: left;
+        }
+    
+        input[type=text]:focus {
+            background-color: lightblue;
+        }
+          
+          input[type=number]:focus {
+            background-color: lightblue;
+          }
+
+          input[type=tel]:focus {
+            background-color: lightblue;
+          }
+
+          input[type=email]:focus {
+            background-color: lightblue;
+          }
+
+       
+      
+
+          textarea {
+            width: 50%;
+            height: 80px;
+            padding: 12px 20px; 
+            box-sizing: border-box;
+            border: 2px solid #ccc;
+            border-radius: 4px;
+            background-color: #f8f8f8;
+            resize: none;
+         }
+
+          #syntax{
+            height:58em ;
+          }
+          
+          
+
+
+        
+
+
+      
+    

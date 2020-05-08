@@ -1,0 +1,1062 @@
+html,body{
+    background-color: white !important;
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+   overflow-x: hidden;
+   scroll-behavior: smooth;
+  }
+
+  #grey{
+      background-color: #EEEEEE;
+  }
+
+  .gotopbtn{
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    background: rgb(46, 44, 44);
+    opacity:0.5;
+    bottom: 40px;
+    right: 50px;
+  
+    text-decoration: none;
+    text-align: center;
+    line-height: 50px;
+    color: white;
+    font-size: 22px;
+  }
+
+  .gotopbtn:hover{
+    opacity: 1;
+  }  
+
+
+  /* Top */
+
+  .header-top{
+    background-color:  #316DC3;
+  }
+ 
+
+
+  .onelinepara{
+      padding-left: 60px;
+      padding-top: 2px;
+  } 
+
+  .blue{
+    
+    display: inline;
+    padding:3.7px;
+ 
+  }
+
+    .sociallogos{
+        border-radius: 0.3em;
+        height: 20px;
+        width: 20px;
+        }
+
+    .youtube{
+       width: 25px;
+       height: 25px; 
+     }
+
+     .white{
+        color: white;
+        padding-top: 10px;
+        font-size: 14.5px !important;
+      }
+    
+    button{
+      width: 100px;
+      height: 30px;
+      font-size: small !important;
+      padding:4px !important; 
+      border-radius: 0px !important;
+    }
+    
+    .buttonss{
+      padding-left: 40px;
+    } 
+    
+    .row{
+        display: flex;
+        /* text-align: center; */
+        align-items: center;
+    }
+
+    /* NavBar */
+
+
+
+    .general{
+        background-color:#eeeeee; 
+        width: 100%;
+        height: 70px;
+      }
+
+
+      .logo{ 
+        height: 60px;
+        opacity: 0.9;
+        background-color: #eeeeee;
+        float: left;
+        margin-left: 60px;
+        padding: 3px; 
+        position: relative;
+        top: -2px;
+       
+      }
+
+      .fixed{
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          padding: 15px;
+      }
+
+        .active{
+            background-color: rgb(63,72,204) !important;
+            color: white !important; 
+          }
+
+          .dropdown{
+            display: inline;
+          }
+
+          
+       
+      .btn{
+        color:black !important;
+      }
+
+      .btn-secondary {
+         background-color: #eeeeee !important;
+        border-color: #EEEEEE !important; 
+      }
+
+      .dropdown>li:hover{
+        background-color: rgb(63,72,204) !important;
+        color: white !important;
+      }
+
+      #pak{
+        color: white !important;
+        text-decoration: none;
+      }
+
+      /* News ticker  */
+
+
+/* Outer Container */
+
+.tcontainer{
+    width: 85%;
+    overflow: hidden;
+    margin: 40px auto ;
+  }
+  
+  /* Middle Container  */
+  
+   .ticker-wrap{
+    width: 100%;
+    padding-left: 100%;
+    background: rgb(63,72,204);
+  } 
+  
+  /* Inner Container - Animation  */
+  
+   @keyframes ticker{
+    0% { transform: translate3d(0, 0, 0);}
+    100% {transform: translate3d(-100%, 0, 0);}
+  }
+  
+  .ticker-move{
+    display: inline-block; 
+    white-space: nowrap;
+    padding-right: 100%;
+    animation-name: ticker;
+    animation-duration: 45s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+  }  
+  
+  .ticker-move:hover{
+    animation-play-state: paused;
+  }
+  
+  /* ITEMS  */
+  .ticker-items{
+    display: inline-block;
+    padding: 0 10rem ;
+    color: white;
+  }
+      
+  .green{
+    color: rgb(0, 255, 0)
+  }
+  
+  .paraa{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #eeeeee;
+    height: 100%;
+  }
+  
+  .intro1{
+    margin: 40px 80px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+  }
+  
+  .intro{
+    color: rgb(63,72,204);
+    display: inline;
+  }
+  
+  .duction{
+    color: green;
+    display: inline;
+  }
+  
+  .underscore{
+    color: green;
+  }
+  
+
+  .expend {
+    background-color: #4B69FF;
+    width: 102%;
+    height: 100%;
+    text-align: center;
+     }
+
+  .expend2{
+      width: 95%; 
+    padding: 10px !important;
+      margin: 30px auto !important;
+  }
+  
+  .logos{
+    width: 50px;
+    height: 50px;
+  }
+  
+  .first{
+    color: white;
+}
+  
+  
+  .second{
+    color: white;
+  }
+  
+  
+  .third{
+    color: white;
+  }
+  
+  .fourth{
+    color: white;
+  }
+  
+  .text{
+    font-size: small;
+    font-weight: bold;
+    font: 18px Merriweather , serif;
+  }
+  
+  
+  .number{
+    font-size: 3em;
+    font-family: sans-serif  ;
+    font-style: normal;
+  }
+
+
+  #block{
+    margin: 70px auto !important;
+    text-align: center;
+  }
+  
+  #whatwe{
+    color: rgb(63,72,204);
+  }
+  #aredoing{
+    color: green;
+  }
+  
+
+
+  #onlinesadqa{  
+     background-color: white;
+     box-shadow: 10px 10px 12px grey;
+     width: 350px !important; 
+      height: 200px !important;
+    
+      padding: 7%;
+ }
+  
+  #welfare{ 
+    background-color: white;
+    box-shadow: 10px 10px 12px grey;
+    width: 350px !important;
+    height: 200px !important;
+    padding: 7%;
+  }
+  
+  #medical{ 
+    background-color: white;
+    box-shadow: 10px 10px 12px grey;
+    width: 350px !important;
+    height: 200px !important;
+    padding: 7%;
+  }
+   
+  #dastarkhwan{ 
+    background-color: white;
+    box-shadow: 10px 10px 12px grey;
+    width: 350px !important;
+    height: 200px !important;
+    padding: 7%;
+  }
+  
+  #roplant{ 
+    background-color: white;
+    box-shadow: 10px 10px 12px grey;
+    width: 350px !important;
+    height: 200px !important;
+    padding: 12%;    
+  }
+   
+   #education{ 
+    background-color: white;
+    box-shadow: 10px 10px 12px grey;
+    width: 350px !important;
+    height: 200px !important;
+    padding: 7%;
+  }
+
+#roplantimg{
+    height: 70px;
+    width: 70px;
+}
+
+  .bord{     
+   /* margin: 15px 26px; */
+   margin: 25px 0px;
+   text-align: center;
+    /* padding-top: 10px; */
+    }
+
+/* To be continue */
+
+.same{
+  color: rgb(63,72,204);
+}
+
+
+#mupue{
+    background-color: white;
+padding-top: 20px;  
+padding-left: 40px;
+}
+  
+  #mup{
+    width: 900px;
+  }
+  
+  #hepatitis{
+    background-color: #EEEEEE;
+    /* float: left; */
+    width: 350px;
+    height: 80px;
+    font-weight: bold;
+  }
+  
+  #itliteracy{
+    background-color: #EEEEEE;
+    /* float: left; */
+    width: 350px;
+    height: 80px;
+    font-weight: bold;
+  }
+  
+  #housingsociety{
+    background-color: #EEEEEE;
+    /* float: left; */
+    width: 350px;
+    height: 80px;
+    /* margin-left: 26px; */
+    /* margin-bottom: 20px; */
+    font-weight: bold;
+  }
+  
+  #tharparkar{
+    background-color: #EEEEEE;
+    /* float: left; */
+    width: 400px;
+    height: 80px;
+    /* margin-left: 26px; */
+    font-weight: bold;
+  }
+
+  .kiki{
+    margin: 10px 15px;
+  }
+
+  .polo{
+    width: 1050px;
+  }
+
+  .kikipolo{
+    margin-left: -15px !important;
+  }
+  
+  .mupimg{
+    padding-top: 20px;
+    padding-left: 20px;
+  }
+  
+  .samee{
+    color: rgb(63,72,204);
+    /* padding-left: 30px;
+    padding-top: 20px; */
+    position: relative;
+    top: 12px;
+    left: 20px;
+  
+  }
+
+  .upes{
+    padding-top: 15px !important;
+  }
+
+  .Stupefy{
+    text-align: center;
+    margin-top: 50px;
+  }
+
+  .paki{
+    width: 40px;
+    height: 40px;
+  }
+  
+  .polo1{
+    height: 150px;
+    width: 225px;
+  }
+
+  .footer{
+    background-color: #25272e;
+    margin-top: 150px;
+    color:  #666666;
+  }
+
+  .footlist{
+    list-style-type: none;
+    padding: 5px;
+    }
+
+  .footer-address-widget{
+    font-size: 15px;
+  }
+
+  .extra{
+   display: inline !important; 
+  }
+
+  .extra1{
+    display: inline !important;
+    padding: 12px;
+  }
+
+  .fa{
+    color: #176b25 !important;
+  }
+
+  .footer-social-icon{
+    list-style-type: none;
+    margin-left: -48px !important;
+  }
+
+.footer-useful-widget{
+  margin-top: -130px !important;
+  font-size: 20px !important;
+  color: white !important;
+  font-weight: bold;    
+  }
+
+  .snape{
+    display: inline;
+    padding: 10px;
+  }
+
+  .footer-social-icons-section{
+    height: 260px;
+  }
+  
+  .footer-address footlist{
+    line-height: 15px;
+  }
+
+  .footer-bottom-container{
+    color: white;
+    margin-top: 12px;
+    font-size: 13px;
+  }
+
+  
+
+/* WRAPPER */
+.tickerv-wrap {
+  height: 200px;
+  width: 400px;
+  overflow: hidden;
+  padding: 10px;
+  box-sizing: content-box;
+  background: white;
+  
+  }
+  
+  /* ANIMATION */
+  @keyframes tickerv {
+  0% { margin-top: 0; }
+  25%{ margin-top: -26px; }
+  50%{ margin-top: -52px; }
+  75%{ margin-top: -78px; }
+  100%{margin-top: 0; }
+  }
+
+.tickerv-wrap ul {
+animation-name: tickerv;
+animation-duration: 4s;
+animation-iteration-count: infinite;
+animation-timing-function: cubic-bezier (0 , 0 , 1 , 1);
+padding:0;
+margin:0;
+list-style-type: none;
+color: grey;
+}
+  
+  
+  /* ITEMS */
+  .tickerv-wrap ul li {
+  line-height: 26px;
+  font-size: 18px; 
+  }
+  
+
+  
+
+
+  /* #ue{ */
+    /* float: left; */
+    /* padding: 60px; */
+    /* width: 400px; */
+    /* height: 400px; */
+  /* } */
+  
+  /*   
+  #ueli{
+    color: #8C8C8C;
+    position: relative;
+    right: 30px;
+  }
+    */
+
+
+
+
+
+ 
+
+/* MEDIA QUERY */
+
+@media only screen and (max-width: 1198px) {
+
+     .changes{
+        height:30px;
+        width: 70px;
+
+    }
+    .mainbuttons{
+        font-size: 10px;
+        margin-bottom: 5px;
+    } 
+    
+
+    .white{
+        
+        font-size: 13px !important;
+    }
+
+    .onelinepara{
+        width: 600px;
+
+    }
+
+    .socialmedialogos{
+        width: 200px;
+        padding-bottom: 10px;
+    }
+
+    .sociallogos{
+        width:19px;
+        height: 19px;
+    } 
+}
+ @media only screen and (max-width: 1190px){
+
+
+.navbut{
+    width:100px;
+
+}
+
+.header-top{
+    height:65px
+}
+
+.sociallogos{
+    width:25px;
+    height: 25px;
+    margin: 3px; 
+}
+
+.changes{
+    height: 30px;
+}
+
+.fixed{
+    width: 800px;
+    position: relative;
+    left:-170px
+}
+
+.navbuttons{
+    font-size: 11px;
+}
+
+.logo{
+    position: relative;
+top:-10px;
+width: 140px;
+}
+
+.socialmedialogos{
+    width: 1000px !important ;
+}
+
+}
+
+
+@media only screen and (max-width: 999px){
+
+
+.general{
+    height: 105px;
+}
+
+.btn{
+    width: 130px;
+    height: 40px;
+   
+}
+
+.navbuttons{
+    font-size: 11px;
+}
+
+.changes{
+    width: 70px;
+}
+
+.header-top{
+    height: 60px;
+}
+
+.sociallogos{
+    height: 22px;
+    width: 25px;
+}
+}
+
+@media only screen and (max-width: 991px){
+    
+
+    .btn{
+        width: 150px;
+        height: 35px;
+    }
+
+    .fixed{
+        margin-left: 90px;
+    }
+
+    .header-top{
+        height: 65px;
+    }
+
+    .sociallogos{
+        width: 20px;
+        height:20px;
+        padding: 0 auto;
+        position: relative;
+        left: -80px;
+        
+    }
+
+    .general{
+        height: 100px;
+    }
+
+
+    
+
+    .white{
+        width: 370px;
+        position: relative;
+        left:-70px
+    }
+
+
+.buttonss{
+    width: 600px;
+}
+
+    .changes{
+        width: 80px;
+        height: 35px;
+    }
+
+    .socialmedialogos{
+        width: 150px;
+    }
+
+
+}
+
+@media only screen and (max-width: 923px){
+
+
+
+.socialmedialogos{
+    width: 120px !important;
+}
+
+.btn{
+    width: 150px;
+    height: 35px;
+}
+
+.fixed{
+    margin-left: 90px;
+    width: 610px;
+}
+
+.header-top{
+    height: 72px;
+}
+
+.sociallogos{
+    width: 20px;
+    height:20px;
+    padding: 0 auto;
+    position: relative;
+    left: -20px;
+}
+
+.general{
+    height: 100px;
+}
+
+
+
+
+.white{
+    width: 300px;
+    position: relative;
+    left:-50px
+}
+
+
+.buttonss{
+width: 500px;
+position: relative;
+left: -50px;
+}
+
+.changes{
+    width: 80px;
+    height: 35px;
+}
+
+
+
+.navbut{
+    width: 110px;
+
+}
+}
+
+
+@media only screen and (max-width: 767px){
+    
+
+    .header-top{
+        height: 120px;
+    }
+
+    .fixed{
+        position: relative;
+        left:-20px;
+    }
+
+.buttonss{
+margin-left: 8.5em;
+}
+
+.white{
+    width: 100%;
+    margin-left: 30px;
+}
+
+.socialmedialogos{
+    margin-left: 11em;
+}
+
+.socialmedialogos{
+    width: 800px !important;
+}
+
+
+} 
+
+
+@media only screen and (max-width: 700px) {
+  .logo{ width: 70px;
+    height: 35px;
+    
+    
+    
+   }
+   
+
+.logo{
+    width: 140px;
+    height: 70px;
+}
+
+.saylog{
+    margin-left: -30px;
+}
+
+.fixed{
+    margin-left: 40px;
+} 
+
+} 
+
+@media only screen and (max-width: 645px) {
+  
+
+   .general {
+    height: 170px;    
+    }
+
+    .navbut{
+        width: 178px;
+    }
+    
+    .fixed{
+        margin-right: 50px;
+        position: relative;
+        left: 15px;
+    }
+    
+    .logo{
+        width: 190px;
+
+    }
+
+    .saylog{
+        position: relative;
+        left: -20px;
+    }
+
+}
+
+@media only screen and (max-width: 575px){
+   
+
+.general{
+height: 258px;
+}
+
+.saylog{
+    margin-left: 120px;
+    margin-top: 20px;
+}
+
+.fixed{
+    position: relative;
+    left: -5px;
+}
+
+.header-top{
+    height: 130px;
+}
+
+} 
+
+/* Mobile Responsive Webpage */
+
+@media only screen and (max-width: 414px){
+
+
+    .header-top{
+        height: 160px;
+    }
+    
+        .socialmedialogos{
+            height: 40px;
+            width: 50px;
+            margin-left: 100px;
+            margin-top: 10px;
+        }
+    
+        .sociallogos{
+            height: 30px;
+            width: 30px;
+        }
+    
+        .white{
+            height: 50px;
+            font-size: 19px !important;
+            width: 70%;
+            margin-left: 30px;
+            margin-top: -10px;
+        }
+    
+        .buttonss{
+            margin: 10px 80px auto;
+        }
+        
+        .saylog{
+            margin-left: 80px;
+        }
+    
+    
+        .fixed{
+            margin-left: -20px;
+        }
+    
+        .donation{
+            margin-left: 90px;
+        }
+    
+    }
+    
+    
+    @media only screen and (max-width: 375px) {
+    
+        .header-top{
+            height: 160px;
+        }
+        
+            .socialmedialogos{
+                height: 40px;
+                width: 50px;
+                margin-left: 80px;
+                margin-top: 10px;
+            }
+        
+            .sociallogos{
+                height: 30px;
+                width: 30px;
+            }
+        
+            .white{
+                height: 50px;
+                font-size: 19px !important;
+                width: 70%;
+                margin-left: 10px;
+                margin-top: -10px;
+            }
+        
+            .buttonss{
+                margin: 10px 60px auto;
+            }
+            
+            .saylog{
+                margin-left: 60px;
+            }
+        
+        
+            .fixed{
+                margin-left: -42px;
+            }
+        
+            .donation{
+                margin-left: 90px;
+            }
+    
+    
+    
+    }
+    
+    @media only screen and (max-width: 320px){
+    
+    
+    .socialmedialogos{
+        height: 40px;
+        width: 50px;
+        margin-left: 50px;
+        margin-top: 10px;
+    }
+    
+    .white{
+        height: 50px;
+        font-size: 18px !important;
+        width: 60%;
+        margin-left: -10px !important;
+        margin-top: -10px;
+    }
+    
+    
+    .buttonss{
+        margin: 10px 30px auto;
+    }
+    
+    .saylog{
+        margin-left: 30px;
+    }
+    
+    .fixed{
+        margin-left: -40px;
+        width: 500px;
+        height: 200px;
+    }
+    
+    .general{
+        height: 270px;
+    
+    }
+    
+    .navbut{
+        width: 150px;
+       
+    }
+    
+    .donation{
+        margin-left: 80px;
+    }
+    
+    
+    }
+
+/* END OF MEDIA QUERY */
