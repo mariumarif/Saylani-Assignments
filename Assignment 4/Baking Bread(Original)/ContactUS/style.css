@@ -1,0 +1,323 @@
+@media only screen and (max-width:515px){
+       
+
+      
+
+            .ctf2{
+                width: 90% !important;
+            }
+
+}
+
+@media only screen and (max-width:460px){
+
+
+.ctf2{
+    width: 95% !important;
+}
+
+}
+
+@media only screen and (max-width:436px){
+
+.ctf2{
+    width: 100% !important;
+}
+
+}
+
+
+@media only screen and (max-width:415px){
+
+    label{
+        width: 50%;
+    }
+
+    
+
+    .yfn{
+margin-right: 78px;
+    }
+
+    .ymn{
+margin-right: 30px;
+    }
+
+}
+
+
+@media only screen and (max-width:415px){
+
+.yfn{
+    margin-right:50px;
+        }
+
+        .ymn{
+            margin-left: 30px;
+                }
+
+                input{
+                    margin-right: 20px !important;
+                }
+            
+                .ctf2{
+                    width: 90% !important;
+                }
+
+}
+
+@media only screen and (max-width:369px){
+
+
+input{
+    margin-left:10px !important;
+}
+
+.yfn{
+   width: 100%;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   text-align: center;
+        }
+
+        label{
+            font-size: 15px !important;
+            width: 100%;
+        }
+        .ymn{
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            text-align: center;
+                }
+
+                #number{
+                    margin-right: 50px !important;
+                    height: 30px;
+                }
+            
+                .ctf2{
+                    width: 100% !important;
+                }
+
+}
+
+
+@media only screen and (max-width:369px){
+
+  
+    input{
+        margin-left:10px !important;
+        width: 140px;
+    }
+
+    ::-webkit-input-placeholder{
+        font-size: 10px;
+    }
+    
+    .yfn{
+       width: 100%;
+       display: flex;
+       flex-direction: row;
+       justify-content: space-around;
+       text-align: center;
+       
+            }
+    
+            label{
+                font-size: 12px !important;
+                width: 100%;
+            }
+            .ymn{
+                width: 105%;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-around;
+                text-align: center;
+                    }
+    
+                    #number{
+                        margin-right: 80px !important;
+                        height: 30px;
+                    }
+                
+                    .ctf2{
+                        width: 100% !important;
+                    }
+    
+
+}
+
+@media only screen and (max-width:282px){
+
+    
+    input{
+        margin-left:10px !important;
+        width: 120px;
+    }
+
+    ::-webkit-input-placeholder{
+        font-size: 10px;
+    }
+    
+    .yfn{
+       width: 100%;
+       display: flex;
+       flex-direction: row;
+       justify-content: space-around;
+       text-align: center;
+       
+            }
+    
+            label{
+                font-size: 12px !important;
+                width: 100%;
+            }
+            .ymn{
+                width: 105%;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-around;
+                text-align: center;
+                    }
+    
+                    #number{
+                        margin-right: 80px !important;
+                        height: 30px;
+                    }
+                
+                    .ctf2{
+                        width: 100% !important;
+                    }
+    
+
+
+}
+
+@media only screen and (max-width:231px){
+
+    
+    
+    #name{
+        height: 30px;
+    }
+
+    input{
+        margin-left:10px !important;
+    font-size: 10px;
+        width: 80px;
+    }
+
+    input[type="name"] {
+        font-size:9px;
+    }
+
+    input[type="text"] {
+        font-size:9px;
+    }
+
+    ::-webkit-input-placeholder{
+        font-size: 10px;
+    }
+    
+    .yfn{
+       width: 100%;
+       display: flex;
+       flex-direction: row;
+       justify-content: space-around;
+       text-align: center;
+       
+            }
+    
+            label{
+                font-size: 12px !important;
+                width: 100%;
+            }
+            .ymn{
+                width: 105%;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-around;
+                text-align: center;
+                    }
+    
+                    #number{
+                        margin-right: 80px !important;
+                        height: 30px;
+                    }
+                
+                    .ctf2{
+                        width: 100% !important;
+                    }
+    
+
+
+}
+
+
+@media only screen and (max-width:191px){
+
+  
+    
+    #name{
+        height: 30px;
+        margin: 0 auto 0 auto !important;
+    }
+
+    input{
+        
+    font-size: 10px;
+        width: 100px;
+        display: inline-block;
+    }
+
+    input[type="name"] {
+        font-size:10px;
+    }
+
+    input[type="text"] {
+        font-size:10px;
+    }
+
+    ::-webkit-input-placeholder{
+        font-size: 10px;
+        
+    }
+    
+    .yfn{
+        flex-direction: column;
+       width: 100%;
+       display: flex;
+       justify-content: space-around;
+       text-align: center;
+       
+            }
+    
+            label{
+                font-size: 12px !important;
+                width: 100%;
+                display: inline-block;
+            }
+            .ymn{
+                width: 100%;
+                /* display: flex; */
+                flex-direction: column;
+                margin: 0 auto 0 auto !important;
+                /* justify-content: space-around;
+                text-align: center; */
+                    }
+    
+                    #number{
+                        margin: 0 auto 0 auto !important;
+                        height: 30px;
+                    }
+                
+                    .ctf2{
+                        width: 100% !important;
+                    }
+    
+
+
+}

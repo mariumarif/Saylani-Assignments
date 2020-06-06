@@ -1,0 +1,668 @@
+/* 
+================
+Global Section
+================
+*/
+
+*{
+    font-family: Dosis;
+}
+
+html, body{
+    background-image: url(./Images/bg.jpg);
+    background-attachment: fixed;
+    overflow-x: hidden;
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+   /* overflow-x: hidden; */
+   scroll-behavior: smooth;
+}
+
+.gotopbtn{
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    background: rgb(45  ,40, 40);
+    opacity:1;
+    bottom: 40px;
+    right: 50px;
+  
+    text-decoration: none;
+    text-align: center;
+    line-height: 50px;
+    color: white;
+    font-size: 22px;
+  }
+
+/* 
+================
+Nav Section
+================
+*/
+
+.navbar-brand img{
+    width: 150px;
+    height: 80px;
+}
+
+.navigation{
+     background-color: rgba(155, 75, 75, 1)!important; 
+     color: white !important;
+     z-index: 1;
+}
+
+.navigation a{
+    color: white !important;
+    margin-right: 6px;
+}
+
+.dropdown-menu a{
+    color: black !important;
+}
+
+.btn-normal{
+    color: white !important;
+}
+
+.slide{
+    background-color: transparent;
+}
+
+.btn-normal:hover{
+    border: 1px solid rgba(155, 75, 75, 0.5);
+}
+
+.main-name{
+            padding: 10px;
+            font-weight: bold;
+            font-style: oblique;
+            font-family: cursive;
+}
+
+.active{
+    /* border:3px solid rosybrown; */
+    /* display: inline-block !important;  */
+    box-shadow: 3px 3px 9px 1px salmon;
+}
+
+/* .mr-auto{
+    width: 240px;
+} */
+
+.white{
+    color: white !important;
+}
+/* 
+ .navbar{
+    position: fixed !important;
+    top: 0px !important;
+    width: 100%;
+}  */
+
+
+/* 
+===============
+Header Section
+===============
+*/
+
+
+.header2{
+    background-color: rgb(120, 80, 84);
+    width: 100%;
+    height: 55px;
+    /* margin-top: 106px; */
+    /* margin-top: auto; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.header2 p{
+    display: inline;
+    padding: 20px;
+    margin-top: 20px;
+    /* text-align: center; */
+    font-size: 1.2em;
+    color: white;
+}
+
+.fa-truck{
+    color: white;
+}
+
+/* 
+====================
+Items
+====================
+*/
+.items{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    /* align-items: flex-start; */
+}
+
+.items-col{
+    /* width: 30.33%; */
+    float: left;
+    text-align: center;
+    margin: auto;
+    margin-top: 40px;
+}
+
+.items-col img{
+    width: 200px;
+    height: 140px;
+    border-radius: 20px;
+}
+
+.items::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.cake{
+    background-color: rgb(177, 134, 54);
+    display: inline;
+    color: white;
+}
+
+.cupcake{
+    background-color: rgb(177, 134, 54);
+    display: inline;
+    color: white;
+}
+
+.cookies{
+    background-color: rgb(177, 134, 54);
+    display: inline;
+    color: white;
+}
+
+.pies{
+    background-color: rgb(177, 134, 54);
+    display: inline;
+    color: white;
+}
+
+.items{
+    background-color: rgb(177, 134, 54);
+    background: transparent;
+    opacity: 1.5;
+    
+}
+
+
+/* Remaining  transfrom hover and link on pics*/
+/* .items-col:hover(){
+    cursor: pointer
+} */
+
+
+/* 
+===============
+Welcome Section
+===============
+*/
+/* .main-welcome{
+    display: flex;
+    flex-wrap: wrap;
+} */
+
+.welcome{
+    color:white;
+    margin: 0px auto 0px auto;
+    padding: 30px;
+    box-sizing: border-box;
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    text-align: center;
+    font-size: 5px !important;
+    width: 85%;
+}
+
+/* .reviews{
+    background-color: rgb(187, 101, 101);
+    color: white;
+    margin-top: 0px;
+    padding: 30px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+    font-size: 5px !important;
+    width: 20%;
+    height: 100%;
+} */
+
+.welcomeback{
+    border-radius: 9px;
+    border: 7px ridge rgb(177, 134, 54) ;
+    padding: 30px;
+}
+
+.welcome h1{
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: 25px !important;
+}
+
+.welcome h3{
+    margin-top: 50px;
+    font-size: 15px !important;
+}
+
+.welcome div{
+        background-color: rgb(187, 101, 101);
+        /* width: 80%;   */
+    }
+
+/* 
+===============
+Footer Section
+===============
+*/
+
+.footer{
+    color: white;
+    background-color: rgb(120, 80, 84);
+    width: 100%;
+    height: 170px;
+}
+
+.foot-col1{
+    width: 37.66%;
+    float: left;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-left: 10px;
+}
+
+.foot-col2{
+    width: 26.33%;
+    float: left;
+    display: flex; 
+    justify-content: center;
+    align-items: center; 
+    margin-top: 50px;
+}
+
+.foot-col3{
+    width: 33%;
+    float: left;
+    display: flex; 
+    justify-content: center;
+    align-items: center; 
+    margin-top: 30px;
+    color: rgba(155, 75, 75, 1); 
+    background-color: white;
+    border-radius: 40%;
+    font-style: italic;
+}
+
+.social-icons{
+    padding: 10px;
+}
+
+/* .fb{
+    background-color: #3a589b;
+    color: white;
+    width: 50px;
+    text-align: center;
+}
+
+.tw{
+    background-color: #32ccfe;
+    color: white;
+    width: 50px;
+    text-align: center;
+}
+
+.gp{
+    background-color: #d6492f;
+    color: white;
+    width: 50px;
+    text-align: center;
+}
+
+.pin{
+    background-color: red;
+    color: white;
+    width: 50px;
+    text-align: center;
+}
+
+.space{
+    width: 34.33%;
+    float: left;
+}
+
+.space1{
+    width: 25%;
+    float: left;
+
+} */
+
+.fa-chevron-circle-up{
+    opacity: 0.5;
+}
+
+
+/* 
+==============
+About us
+==============
+ */
+
+ .auh{
+    color: white;
+}
+
+.items1{
+    border-radius: 7px;
+    border: 5px ridge rgb(177, 134, 54) ;
+}
+
+.maindiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin-top: 80px;
+    margin-bottom: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+}
+.auh-main{
+    background-color: rgb(177, 134, 54);
+    opacity: 0.9;
+    width: 90%;
+    /* text-align: center; */
+    /* margin: 150px auto 0px auto; */
+    /* margin-top: 80px; */
+    /* margin-right: 30px; */
+    margin-bottom: 20px;
+    padding: 30px;
+    /* float: left; */
+    border: 7px ridge  rgb(120, 80, 84);
+    border-radius: 9px;
+}
+
+.moreinfo{
+    background-color: rgb(177, 134, 54);
+    opacity: 0.9;
+    width: 90%;
+    /* text-align: center; */
+    /* margin: 0px auto 0px auto; */
+    padding: 30px;
+    /* margin-top: 80px; */
+    /* margin-left: 60px; */
+    color: white;
+    /* float: left; */
+    border: 7px ridge  rgb(120, 80, 84);
+    border-radius: 9px;
+    /* height: 100%; */
+}
+
+.moreinfo p{
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.auh-main::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.one{
+    margin: 30px auto 100px auto;
+    width: 80%;
+    height: 100%;
+}
+
+.one::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.one img{
+    float: left;
+    height: 100%;
+    padding: 8px;
+    border: 1px solid black;
+}
+
+.two{
+    margin: 30px auto 100px auto;
+    /* background-color: tomato; */
+    width: 80%;
+    /* border: 2px solid blue; */
+}
+
+.two::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.two img{
+    float: left;
+    height: 100%;
+    padding: 8px;
+    border: 1px solid black;
+}
+
+.three{
+    margin: 30px auto 100px auto;
+    /* background-color: tomato; */
+    width: 80%;
+    /* border: 2px solid blue;     */
+}
+
+.three::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.three img{
+    float: left;
+    height: 100%;
+    padding: 8px;
+    border: 1px solid black;
+}
+
+.four{
+    margin: 30px auto 100px auto;
+    /* background-color: tomato; */
+    width: 80%;
+    /* border: 2px solid blue;     */
+}
+
+.four::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.four img{
+    float: left;
+    height: 100%;
+    padding: 8px;
+    border: 1px solid black;
+}
+
+.obp{
+    color: black;
+}
+
+.usss{
+    color: white;
+}
+/* .aboutuss{
+    margin-top: 1500px;
+    color: white;
+} */
+
+
+.brownie{
+    background-color: rgb(120, 80, 84) !important;
+}
+    
+
+    .overline{
+        border-top: 7px ridge rgb(177, 134, 54);
+        border-radius: 9px;
+}
+
+.ctf2{
+width: 80%;
+height: 100%;
+    background-color: rgb(177, 134, 54);
+    opacity: 0.9;
+    margin: 70px auto 70px auto;
+    text-align: center;
+    color: white;
+    border: 7px ridge  rgb(120, 80, 84);
+    border-radius: 9px;
+}
+
+.ctf2::after{
+    display: table;
+    content: "";
+    clear: both;
+}
+
+.hr1{
+    overflow: visible; /* For IE */
+    height: 30px;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px 0 0 0;
+    border-radius: 20px;
+    width: 50%;
+}
+.hr1:before { /* Not really supposed to work, but does */
+    display: block;
+    content: "";
+    height: 30px;
+    margin-top: -31px;
+    border-style: solid;
+    border-color: black;
+    border-width: 0 0 1px 0;
+    border-radius: 20px;
+
+}
+/* hr{
+    height: 12px;
+    border: 0;
+    box-shadow: inset 0 12px 12px -12px rgba(0, 0, 0, 0.5);
+} */
+
+
+/* .ctf2::after{
+    display: table;
+    content: "";
+    clear: both;
+} */
+
+
+.ctf{
+    color: white;
+    text-decoration: wavy;
+    font-style: bold;
+}
+
+.form-name{
+    border: rgba(233, 91, 35, 0.863);
+
+}
+
+.form-name:hover{
+border:2px solid rgb(0, 152, 212);}
+
+.comments:hover{
+    border:2px solid rgb(0, 152, 212);
+    display: inline-block;
+}
+
+.send{
+    background-color: rgb(26, 138, 182) ;
+    border:2px ridge rgb(45  ,40, 40);
+    border-radius: 4px;
+    color: white;
+    display: inline-block;
+}
+
+.send:hover{
+    background-color: rgb(23, 115, 151) ;
+    border:3px ridge rgb(45  ,40, 40);
+    border-radius: 7px;
+}
+
+
+
+
+
+/* .wrap-aboutus{
+
+        display: flex;
+        flex-wrap: nowrap;
+
+} */
+
+/* 
+==========
+Cake
+==========
+*/
+
+.maincake{
+    width: 80%;
+    height: 100%;
+    background-color: floralwhite;
+    border: 2px solid rgb(201, 137, 137);
+    box-sizing: border-box;
+    margin: 50px auto 50px auto;
+    /* display: flex; */
+    /* justify-content: center; */
+    text-align: center;
+    padding: 20px;
+}
+
+.maincake img{
+    width: 80%;
+}
+
+.cakeheading{
+    margin-bottom: 50px;
+    font-size: 3em;
+    text-decoration: underline;
+    font-weight: bold;
+    color: rgba(155, 75, 75, 1);
+}
+
+.abc{
+    font-size: large;
+    text-align: justify;
+    padding: 20px;
+}
+
+.abcd{
+    text-align: justify;
+    padding-left: 20px;
+}
